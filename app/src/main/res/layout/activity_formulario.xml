@@ -8,6 +8,12 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/formulario_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome" />
+
+        <EditText
             android:id="@+id/formulario_endereco"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,12 +38,6 @@
             android:layout_gravity="center"
             android:max="10"
             android:numStars="5" />
-
-        <Button
-            android:id="@+id/formulario_salvar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Salvar" />
 
     </LinearLayout>
 
