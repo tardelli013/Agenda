@@ -4,4 +4,4 @@ Mini agenda para Android
 
 Desenvolvido com Android Studio
 
-Java + Hql
+Java + SQLite
